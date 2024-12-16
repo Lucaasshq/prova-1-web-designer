@@ -1,3 +1,7 @@
 li.nav-li {
-    list-style: none;
+    list-style-image: url(/prova-1-web-designer/assets/seta-menu.png);
+}
+h1.cabecalho {
+    background-image: url(/prova-1-web-designer/assets/bach-header-1.png);
+
 }
