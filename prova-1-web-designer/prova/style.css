@@ -1,82 +1,111 @@
 body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  @font-face {
-    font-family: Charm-Regular;
-    src: url(/prova-1-web-designer/fonts/Charm-Regular.ttf) format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  .header-1 {
-    background-image: url(/prova-1-web-designer/assets/bach-header-1.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: Charm-Regular;
-    display: flex;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
 
+@font-face {
+  font-family: Charm-Regular;
+  src: url(/prova-1-web-designer/fonts/Charm-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header-1 {
+  background-image: url(/prova-1-web-designer/assets/bach-header-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Charm-Regular;
+  display: flex;
+  position: sticky; 
+  z-index: 1000;
+  top: 0; 
   
-  .page-logo {
-    height: 40px;
-  }
-  
-  .page-title {
-    color: white;
-    margin: 25px;
-  }
-  
-  .conteudo-principal {
-    margin-left: 270px;
-    padding: 20px;
-    padding-top: 80px;
-  }
-  
-  .menu-lateral {
-    background-image: url(/prova-1-web-designer/assets/barra-lateral.png);
-    position: fixed;
-    left: 0;
-    width: 200px;
-    height: calc(100vh - 60px);
-    background-color: #333; 
-  }
-  
-  .menu-lateral ul {
-    list-style: none;
-    padding: 0;
-    margin: 0; 
-    gap: 20px; 
-  }
-  
-  .menu-lateral li.nav-li { 
-    padding: 10px;  
-    transition: background-color 0.3s, color 0.3s; 
-  }
-  
-  .menu-lateral li.nav-li:hover {
-    background-color: #5A82B2; 
-  }
-  
-  .menu-lateral li.nav-li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    width: 100%; 
-  }
-  
-  .menu-lateral li.nav-li img {
-    height: 20px; 
-    width: 20px;
-    margin-right: 10px;
-  }
-  
-  
-  .conteudo-principal {
-    margin-left: 220px; 
-    padding: 20px;
-    padding-top: 80px; 
-  }
-  
+}
+
+.page-logo {
+  height: 40px;
+}
+
+.page-title {
+  color: white;
+  margin: 25px;
+}
+
+.menu-lateral {
+  background-image: url(/prova-1-web-designer/assets/barra-lateral.png);
+  position: fixed;
+  left: 0;
+  width: 200px;
+  height: calc(100vh - 60px);
+  background-color: #333;
+}
+
+.menu-lateral ul {
+  list-style: url(/prova-1-web-designer/assets/seta-menu.png);
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.menu-lateral li.nav-li {
+  padding: 10px;
+  transition: background-color 0.3s, color 0.3s;
+   font-family: Roboto-bold;
+}
+
+.menu-lateral li.nav-li:hover {
+  background-color: #5a82b2;
+}
+
+
+
+.menu-lateral li.nav-li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  width: 100%;
+}
+
+.menu-lateral li.nav-li img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.conteudo-principal {
+  margin-left: 210px;
+}
+
+.text-webDesign {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  color: #1b6abb;
+}
+
+.linha-reta {
+  width: 85%;
+  margin-left: 0px;
+  color: #1b6abb;
+}
+
+.text-li {
+  color: #1b6abb;
+  font-family: Roboto-bold;
+  margin-bottom: 25px;
+  white-space: normal;
+}
+
+@font-face {
+  font-family: Roboto-bold;
+  src: url(/prova-1-web-designer/fonts/Roboto-Medium.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.imagem-1 {
+  border: 2px solid #9a98ab;
+}
+
+.div-imagem {
+  text-align: center;
+}
