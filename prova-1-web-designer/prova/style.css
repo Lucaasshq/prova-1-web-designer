@@ -106,6 +106,82 @@ body {
   border: 2px solid #9a98ab;
 }
 
+.imagem-ux {
+  width: 500px;
+  border: 2px solid #9a98ab;
+}
+
+.imagem-ihc {
+  
+  height: 400px;
+  border: 2px solid #9a98ab ;
+  margin-bottom: 15px
+}
+
+.imagem-ihc-2 {
+  height: 325px;
+  border: 2px solid #9a98ab;
+}
+
+.imagem-5-design-interacao {
+  border: 2px solid #9a98ab;
+  height: 500px;
+  margin-bottom: 10px;
+}
+
+.imagem-6-design-centrado {
+ border: 2px solid #9a98ab;
+ height: 400px; 
+}
+
+.table-1 {
+  border: 2px;
+  background-color: #B2C1DB;
+  padding: 22px;
+  
+}
+
+
 .div-imagem {
   text-align: center;
 }
+
+.imagem-7-1 {
+  border: 2px solid #B2C1DB;
+  height: 350px;
+  margin-bottom: 10px;
+
+}
+
+.imagem-7-2 {
+  border: 2px solid #B2C1DB;
+  height: 350px;
+  margin-bottom: 10px;
+
+}
+
+.imagem-7-3 {
+  border: 2px solid #B2C1DB;
+  height: 415px;
+  margin-bottom: 10px;
+}
+
+.imagem-arquitet-info-8 {
+  border: 2px solid #B2C1DB;
+  height: 415px;
+  margin-bottom: 10px;
+}
+
+.table-arquitet-info {
+  width: 800px; 
+}
+
+.div-table-arquitet-info {
+  margin-left: 400px;
+  
+}
+
+.div-design-centrado {
+  margin-left: 500px;
+}
+
