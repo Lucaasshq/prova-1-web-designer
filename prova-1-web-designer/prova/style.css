@@ -17,10 +17,9 @@ body {
   background-repeat: no-repeat;
   font-family: Charm-Regular;
   display: flex;
-  position: sticky; 
+  position: sticky;
   z-index: 1000;
-  top: 0; 
-  
+  top: 0;
 }
 
 .page-logo {
@@ -51,19 +50,24 @@ body {
 .menu-lateral li.nav-li {
   padding: 10px;
   transition: background-color 0.3s, color 0.3s;
-   font-family: Roboto-bold;
+  font-family: Roboto-bold;
 }
 
-.menu-lateral li.nav-li:hover {
+.menu-lateral .nav-li:hover {
   background-color: #5a82b2;
 }
 
-
+.link-menu:hover {
+  color: white
+}
 
 .menu-lateral li.nav-li a {
-  color: rgb(0, 0, 0);
   text-decoration: none;
   width: 100%;
+}
+
+.link-menu {
+  color: black;
 }
 
 .menu-lateral li.nav-li img {
@@ -112,15 +116,18 @@ body {
 }
 
 .imagem-ihc {
-  
   height: 400px;
-  border: 2px solid #9a98ab ;
-  margin-bottom: 15px
+  border: 2px solid #9a98ab;
+  margin-bottom: 15px;
+  display: flex;
+  margin-left: 500px;
 }
 
 .imagem-ihc-2 {
   height: 325px;
   border: 2px solid #9a98ab;
+  display: flex;
+  margin-left: 500px;
 }
 
 .imagem-5-design-interacao {
@@ -130,58 +137,66 @@ body {
 }
 
 .imagem-6-design-centrado {
- border: 2px solid #9a98ab;
- height: 400px; 
+  border: 2px solid #9a98ab;
+  height: 400px;
 }
 
 .table-1 {
   border: 2px;
-  background-color: #B2C1DB;
+  background-color: #b2c1db;
   padding: 22px;
-  
 }
-
 
 .div-imagem {
   text-align: center;
 }
 
 .imagem-7-1 {
-  border: 2px solid #B2C1DB;
+  border: 2px solid #b2c1db;
   height: 350px;
   margin-bottom: 10px;
-
+  display: flex;
+  margin-left: 500px;
 }
 
 .imagem-7-2 {
-  border: 2px solid #B2C1DB;
+  border: 2px solid #b2c1db;
   height: 350px;
   margin-bottom: 10px;
-
+  display: flex;
+  margin-left: 500px;
 }
 
 .imagem-7-3 {
-  border: 2px solid #B2C1DB;
+  border: 2px solid #b2c1db;
   height: 415px;
   margin-bottom: 10px;
+  display: flex;
+  margin-left: 500px;
 }
 
 .imagem-arquitet-info-8 {
-  border: 2px solid #B2C1DB;
+  border: 2px solid #b2c1db;
   height: 415px;
   margin-bottom: 10px;
 }
 
 .table-arquitet-info {
-  width: 800px; 
+  width: 800px;
 }
 
 .div-table-arquitet-info {
   margin-left: 400px;
-  
 }
 
 .div-design-centrado {
   margin-left: 500px;
 }
 
+.table-arquitet-info {
+  border-collapse: collapse;
+}
+
+.table-main {
+  border-collapse: collapse;
+}
