@@ -20,6 +20,7 @@ body {
   position: sticky;
   z-index: 1000;
   top: 0;
+  
 }
 
 .page-logo {
@@ -29,6 +30,8 @@ body {
 .page-title {
   color: white;
   margin: 25px;
+  background-color: #201A46;
+  
 }
 
 .menu-lateral {
